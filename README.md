@@ -38,3 +38,9 @@
 ## 예외 처리시
 
 "[ERROR]"로 시작하는 메시지와 함께 Error를 발생시킨 후 애플리케이션은 종료되어야 한다.
+
+## 만났던 오류
+
+- 폴더 및 파일 이름 대소문자 불일치로 인한 import 오류<br>
+  파일명을 PromptOutput에서 promptOutput 변경하였습니다 <br> 이유는 FSD 환경에서는 PascalCase도 가능하지만,
+  현재 프로젝트는 React/TypeScript 환경이 아니므로 camelCase로 통일
