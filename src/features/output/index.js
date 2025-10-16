@@ -1,1 +1,1 @@
-export { promptOutput } from "./promptOutput/PromptOutput.js";
+export { promptOutput } from "./promptOutput/promptOutput.js";

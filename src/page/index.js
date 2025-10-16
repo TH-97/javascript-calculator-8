@@ -1,1 +1,1 @@
-export { calculator } from "./Calculator/Calculator.js";
+export { calculator } from "./calculator/calculator.js";
