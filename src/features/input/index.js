@@ -1,1 +1,1 @@
-export { inputReceiving } from "./inputReceiving/inputReceiving.js";
+export { readInput } from "./readInput/readInput.js";
