@@ -1,2 +1,2 @@
 export { promptOutput } from "./promptOutput/promptOutput.js";
-export { outputValidationError } from "./outputValidationError/outputValidationError.js";
+export { resultOutput } from "./resultOutput/resultOutput.js";

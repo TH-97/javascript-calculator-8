@@ -1,5 +1,6 @@
-import { checkEmptyInput } from "./lib/checkEmptyInput.js";
+import { isEmpty } from "./lib/isEmpty.js";
 
 export function vaildateInput(input) {
-  if (!checkEmptyInput(input)) return { isValid: false, reason: "empty" };
+  if (isEmpty(input)) return false;
+  return true;
 }
