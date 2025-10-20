@@ -4,7 +4,7 @@ export class NumberArray {
   }
 
   isNumber(number) {
-    return Number.isInteger(Number(number));
+    return Number.isInteger(Number(number)) && Number(number) >= 0;
   }
 
   addNumber(number) {
