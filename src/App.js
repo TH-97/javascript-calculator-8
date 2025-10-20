@@ -2,7 +2,7 @@ import { calculator } from "./page/index.js";
 
 class App {
   async run() {
-    calculator();
+    await calculator();
   }
 }
 
