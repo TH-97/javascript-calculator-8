@@ -16,7 +16,7 @@ export function parseCustomDelimiter(input) {
   }
 
   if (startMarker === 0 && endMarker !== -1) {
-    const customDelimiter = input.slice(startMarker + 2, endMarker);
+    const customDelimiter = input.slice(startMarker + 2, endMarker - 1);
     delimiterManager.addCustumDelimiter(customDelimiter);
     inputString = input.slice(endMarker + 2);
   }
